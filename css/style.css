@@ -22,7 +22,7 @@ a{
 }
 
 a:hover , a span:hover{
-   color: gray;
+   color: red;
 }
 
 .bg-special{
@@ -73,7 +73,9 @@ a:hover , a span:hover{
    width: 100%;
 }
 
-
+ul li{
+   list-style: none;
+}
 
 .colorfull{
    width: 100%;
@@ -435,12 +437,83 @@ a:hover , a span:hover{
    float: right;
    width: 80%;
    height: 100%;
+   position: relative;
 }
 
 .slider2 .slider2-img .slider2-bg{
    position: absolute;
    width: 100%;
    height: 100%;
+   left: 0;
+   right: 0;
+   overflow: hidden;
+   z-index: 0;
+}
+
+.slider2 .slider2-img .slider2-bg img{
+   width: 100%;
+}
+
+.slider2 .slider2-img h4{
+   color: red;
+   float: right;
+   z-index: 1;
+   position: relative;
+   margin: 25px 25px 0px 25px;
+}
+
+.slider2 .slider2-img .slider2-price{
+   position: relative;
+   float: right;
+   width: auto;
+   height: auto;
+   display: block;
+   margin: 10px 30px;
+}
+
+.slider2 .slider2-img .slider2-price span{
+   padding: 10px 15px;
+   text-align: center;
+   font-size: 16px;
+   font-family: Yekan;
+   font-weight: bold;
+   float: right;
+   direction: rtl;
+   position: relative;
+   border: 2px solid white;
+}
+
+.slider2 .slider2-img .slider2-price .slider2-price-old{
+   background-color: rgba(95, 93, 93, 0.952);
+   color: rgb(204, 201, 201);
+}
+
+.slider2 .slider2-img .slider2-price .slider2-price-old::after{
+   border-bottom: 8px solid transparent;
+   border-right: 10px solid rgba(95, 93, 93, 0.952);
+   border-top: 8px solid transparent;
+   content: "";
+   right: 87px;
+   position: absolute;
+   top: 18px;
+   z-index: 2;
+}
+
+.slider2 .slider2-img .slider2-price .slider2-price-old::before{
+   border-bottom: 2px solid rgb(26, 25, 25);
+   content: "";
+   left: 5px;
+   height: 0px;
+   width: 90%;
+   position: absolute;
+   top: 25px;
+   z-index: 2;
+   transform: rotate(-18deg);
+}
+
+.slider2 .slider2-img .slider2-price .slider2-price-new{
+   background-color: rgb(224, 110, 110);
+   color: white;
 }
 
 .slider2 .slider2-item{
@@ -483,3 +556,4 @@ a:hover , a span:hover{
    padding: 0;
    font-size: 20.2px;
 }
+
