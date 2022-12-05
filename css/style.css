@@ -53,6 +53,10 @@ a:hover{
    width: 10%;
 }
 
+.wi-33{
+   width: 33.33%;
+}
+
 .wi-40{
    width: 40%;
 }
@@ -63,6 +67,10 @@ a:hover{
 
 .wi-60{
    width: 60%;
+}
+
+.wi-66{
+   width: 66.67%;
 }
 
 .wi-90{
@@ -464,15 +472,24 @@ ul li{
    height: auto;
 }
 
-.slider2 .slider2-img h4{
+.slider2 .slider2-img h3 , .slider2 .slider2-img h4 , .slider2 .slider2-img h5{
    color: red;
    float: right;
    z-index: 1;
    position: relative;
-   margin: 25px 25px 0px 25px;
+   margin: 25px 25px 0px 5px;
 }
 
-.slider2 .slider2-img .slider2-price{
+.slider2 .slider2-img h5{
+   color: rgb(226, 93, 93);
+   margin-top: 0px;
+}
+
+.slider2 .slider2-img h3{
+   color: rgb(77, 75, 75);
+}
+
+.slider2 .slider2-img .slider2-price , .slider2 .slider2-img .slider2-time{
    position: relative;
    float: right;
    width: auto;
@@ -503,7 +520,7 @@ ul li{
    border-right: 10px solid rgba(249, 247, 247, 0.952);
    border-top: 8px solid transparent;
    content: "";
-   right: 87px;
+   right: 90px;
    position: absolute;
    top: 18px;
    z-index: 1;
@@ -531,7 +548,7 @@ ul li{
    border-right: 10px solid rgba(95, 93, 93, 1);
    border-top: 8px solid transparent;
    content: "";
-   left: 119px;
+   left: 121px;
    position: absolute;
    top: 18px;
    z-index: 2;
@@ -539,11 +556,23 @@ ul li{
 
 .slider2 .slider2-img ul{
    float: right;
+   position: relative;
+   text-align: right;
+   margin: 5px 40px 20px 20px;
 }
 
 .slider2 .slider2-img ul li{
    color: black;
    z-index: 2;
+   list-style: outside;
+   direction: rtl;
+}
+
+.slider2 .slider2-img .left-slider2-img span{
+   position: relative;
+   text-align: center;
+   width: 100%;
+   float: right;
 }
 
 .slider2 .slider2-item{
@@ -587,3 +616,9 @@ ul li{
    font-size: 20.2px;
 }
 
+.gallery{
+   margin: 0 0 15px 0;
+   height: auto;
+   width: 100%;
+   float: right;
+}
