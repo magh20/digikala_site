@@ -21,7 +21,7 @@ a{
    text-decoration: none;
 }
 
-a:hover , a span:hover{
+a:hover{
    color: red;
 }
 
@@ -377,6 +377,10 @@ ul li{
    position: relative;
 }
 
+.slider1 a > span:hover{
+   color: red;
+}
+
 .slider1 .slider1-righticon , .slider1 .slider1-lefticon{
    position: absolute;
    width: 50px;
@@ -454,6 +458,12 @@ ul li{
    width: 100%;
 }
 
+.slider2 .left-slider2-img , .slider2 .right-slider2-img{
+   width: 50%;
+   float: right;
+   height: auto;
+}
+
 .slider2 .slider2-img h4{
    color: red;
    float: right;
@@ -484,19 +494,19 @@ ul li{
 }
 
 .slider2 .slider2-img .slider2-price .slider2-price-old{
-   background-color: rgba(95, 93, 93, 0.952);
+   background-color: rgba(95, 93, 93, 1);
    color: rgb(204, 201, 201);
 }
 
 .slider2 .slider2-img .slider2-price .slider2-price-old::after{
    border-bottom: 8px solid transparent;
-   border-right: 10px solid rgba(95, 93, 93, 0.952);
+   border-right: 10px solid rgba(249, 247, 247, 0.952);
    border-top: 8px solid transparent;
    content: "";
    right: 87px;
    position: absolute;
    top: 18px;
-   z-index: 2;
+   z-index: 1;
 }
 
 .slider2 .slider2-img .slider2-price .slider2-price-old::before{
@@ -514,6 +524,26 @@ ul li{
 .slider2 .slider2-img .slider2-price .slider2-price-new{
    background-color: rgb(224, 110, 110);
    color: white;
+}
+
+.slider2 .slider2-img .slider2-price .slider2-price-new::after{
+   border-bottom: 9px solid transparent;
+   border-right: 10px solid rgba(95, 93, 93, 1);
+   border-top: 8px solid transparent;
+   content: "";
+   left: 119px;
+   position: absolute;
+   top: 18px;
+   z-index: 2;
+}
+
+.slider2 .slider2-img ul{
+   float: right;
+}
+
+.slider2 .slider2-img ul li{
+   color: black;
+   z-index: 2;
 }
 
 .slider2 .slider2-item{
