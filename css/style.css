@@ -668,3 +668,31 @@ ul li{
    display: block;
    margin-right: 60px;
 }
+
+.slideshow1{
+   background-color: white;
+   height: 300px;
+   float: right;
+   width: 100%;
+   margin: 15px 0 0 0;
+   box-shadow: 0 0 5px 0 #ccc;
+   box-shadow: 5px;
+}
+
+.slideshow1 header{
+   width: 100%;
+   height: 30px;
+   background-color: rgb(237, 236, 236);
+   float: right;
+   line-height: 5px;
+}
+
+.slideshow1 header a{
+   line-height: 25px;
+   font-size: 13px;
+   padding-left: 5px;
+   float: left;
+   direction: rtl;
+   color: blue;
+   font-family: Yekan;
+}
