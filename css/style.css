@@ -645,4 +645,26 @@ ul li{
 .information{
    width: 100%;
    float: right;
+   height: auto;
+}
+
+.information ul{
+   padding-right: 30px;
+
+}
+
+.information ul li{
+   width: 20%;
+   float: right;
+   list-style: none;
+   text-align: center;
+   direction: rtl;
+   font-size: 13px;
+
+}
+
+.information ul li img{
+   text-align: center;
+   display: block;
+   margin-right: 60px;
 }
