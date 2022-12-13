@@ -8,14 +8,6 @@ body{
    background-color: #fff;
 }
 
-h1,h2,h3,h4,h5,h6{
-   font-family: Yekan;
-   direction: rtl;
-   text-align: right;
-   margin: 10px 0;
-   padding: 0 5px;
-}
-
 a{
    color: inherit;
    text-decoration: none;
@@ -35,6 +27,14 @@ a:hover{
 
 .fl-ri{
    float: right;
+}
+
+h1,h2,h3,h4,h5,h6{
+   font-family: Yekan;
+   direction: rtl;
+   text-align: right;
+   margin: 10px 0;
+   padding: 0 5px;
 }
 
 .ma-0-5{
@@ -677,6 +677,8 @@ ul li{
    margin: 15px 0 0 0;
    box-shadow: 0 0 5px 0 #ccc;
    box-shadow: 5px;
+   overflow: hidden;
+   position: relative;
 }
 
 .slideshow1 header{
@@ -695,4 +697,72 @@ ul li{
    direction: rtl;
    color: blue;
    font-family: Yekan;
+}
+
+.slideshow1 ul{
+   width: 120%;
+   float: right;
+   margin: 0;
+}
+
+.slideshow1 ul li{
+   width: 195px;
+   height: 100%;
+   float: right;
+   margin-right: 5px;
+}
+
+.slideshow1 ul li a{
+   width: 100%;
+   text-align: center;
+   float: right;
+}
+
+.slideshow1 ul li a img{
+   width: 100%;
+   height: 175px;
+   float: right;
+}
+
+.slideshow1 ul li h4,h5,h6{
+   text-align: center;
+   margin: 5px;
+}
+
+.slideshow1 ul li h6{
+   background-color: #f1f3f3;
+   border-radius: 3px;
+   font-size: 11px;
+}
+
+.slideshow1 ul li h5{
+   color: green;
+}
+
+
+
+.slideshow-righticon{
+   bottom: 0;
+   position: absolute;
+   height: 270px;
+   width: 35px;
+   background-color: #F7F9FA;
+   box-shadow: 0 0 5px 0 #ccc;
+   left: 0;
+   z-index: 3;
+   line-height: 250px;
+   padding: 0 6px;
+}
+
+.slideshow-lefticon{
+   bottom: 0;
+   position: absolute;
+   height: 270px;
+   width: 35px;
+   background-color: #F7F9FA;
+   box-shadow: 0 0 5px 0 #ccc;
+   padding: 0 3px;
+   right: 0;
+   line-height: 250px;
+   z-index: 3;
 }
