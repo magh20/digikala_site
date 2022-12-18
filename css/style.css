@@ -669,7 +669,7 @@ ul li{
    margin-right: 60px;
 }
 
-.slideshow1{
+.slideshow{
    background-color: white;
    height: 300px;
    float: right;
@@ -681,15 +681,15 @@ ul li{
    position: relative;
 }
 
-.slideshow1 header{
+.slideshow header{
    width: 100%;
    height: 30px;
    background-color: rgb(237, 236, 236);
    float: right;
-   line-height: 5px;
+   line-height: 20px;
 }
 
-.slideshow1 header a{
+.slideshow header a{
    line-height: 25px;
    font-size: 13px;
    padding-left: 5px;
@@ -699,47 +699,45 @@ ul li{
    font-family: Yekan;
 }
 
-.slideshow1 ul{
+.slideshow ul{
    width: 120%;
    float: right;
    margin: 0;
 }
 
-.slideshow1 ul li{
+.slideshow ul li{
    width: 195px;
    height: 100%;
    float: right;
    margin-right: 5px;
 }
 
-.slideshow1 ul li a{
+.slideshow ul li a{
    width: 100%;
    text-align: center;
    float: right;
 }
 
-.slideshow1 ul li a img{
+.slideshow ul li a img{
    width: 100%;
    height: 175px;
    float: right;
 }
 
-.slideshow1 ul li h4,h5,h6{
+.slideshow ul li h4,h5,h6{
    text-align: center;
    margin: 5px;
 }
 
-.slideshow1 ul li h6{
+.slideshow ul li h6{
    background-color: #f1f3f3;
    border-radius: 3px;
    font-size: 11px;
 }
 
-.slideshow1 ul li h5{
+.slideshow ul li h5{
    color: green;
 }
-
-
 
 .slideshow-righticon{
    bottom: 0;
@@ -752,6 +750,7 @@ ul li{
    z-index: 3;
    line-height: 250px;
    padding: 0 6px;
+   color: gray;
 }
 
 .slideshow-lefticon{
@@ -765,4 +764,41 @@ ul li{
    right: 0;
    line-height: 250px;
    z-index: 3;
+   color: gray;
+}
+
+footer{
+   width: 100%;
+   height: auto;
+   float: right;
+}
+
+footer header{
+   background-color: rgb(119, 118, 118);
+   height: 50px;
+   width: 100%;
+   float: right;
+}
+
+footer header ul li{
+   float: right;
+   color: white;
+   padding: 5px 50px 5px 0;
+   line-height: 5px;
+   text-align: right;
+   direction: rtl;
+   font-family: Yekan;
+}
+
+   footer header ul li:nth-child(1){
+      width: 65%;
+   }
+
+footer header ul li i{
+   color: rgb(37, 36, 36);
+}
+
+.footer-body{
+   height: 300px;
+   background-color: rgb(240, 240, 240);
 }
