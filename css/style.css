@@ -188,6 +188,7 @@ ul li{
    border-radius: 5px 0 0 5px;
    margin-top: 2px;
    text-align: center;
+   font-size: 15px;
 }
 
 .cart-div{
@@ -817,7 +818,7 @@ footer header ul li i{
 }
 
 .footer-body{
-   height: 260px;
+   height: 230px;
    background-color: rgb(240, 240, 240);
    width: 100%;
    float: right;
@@ -828,4 +829,72 @@ footer header ul li i{
    margin-right: 40px;
    width: 100%;
    float: right;
+}
+
+.footer-bottom-left ul li{
+   float: right;
+   width: 3%;
+}
+
+.footer-bottom-left ul li a:hover{
+   color: inherit;
+}
+
+   .footer-bottom-left ul li:nth-child(1){
+      color: blue;
+   }
+
+   .footer-bottom-left ul li:nth-child(2){
+      color: rgb(15, 178, 238);
+   }
+
+   .footer-bottom-left ul li:nth-child(3){
+      color: rgb(244, 15, 7);
+   }
+
+   .footer-bottom-left ul li:nth-child(4){
+      color: rgb(226, 19, 57);
+   }
+
+   .footer-bottom-left ul li:nth-child(5){
+      color: rgb(6, 108, 145);
+   }
+
+.footer-bottom-left span{
+   float: right;
+   margin-top: 10px;
+}
+
+.digikala-sections{
+   float: right;
+   width: 100%;
+   height: auto;
+   margin-top: 20px;
+}
+
+.digikala-sections hr{
+   color: rgba(207, 203, 203, 0.69);
+   margin-bottom: 0;
+}
+
+.digikala-sections span{
+   margin-top: 0;
+   margin-bottom: 0;
+   float: right;
+   width: 11.11%;
+   height: 50px;
+   border-left: 1px solid rgba(189, 187, 187, 0.558);
+   border-bottom: 1px solid rgb(189, 187, 187, 0.558);
+}
+
+.digikala-sections span a{
+   
+}
+
+.digikala-sections span a img{
+   margin-left: 40px;
+   margin-bottom: 0;
+   width: 90px;
+   height: 60px;
+
 }
