@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+ 
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+ 
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.bg-special{
+    background-color: #F7F9FA;
+}
+ 
+.box-0050{
+    box-shadow: 0 0 5px 0 #ccc;
+}
+ 
+.fl-ri{
+    float: right;
+}
+ 
+h1,h2,h3,h4,h5,h6{
+    font-family: Yekan;
+    direction: rtl;
+    text-align: right;
+    margin: 10px 0;
+    padding: 0 5px;
+}
+ 
+.ma-0-5{
+    margin: 0 5px;
+}
+ 
+.ma-5{
+    margin: 5px;
+}
+ 
+.ma-10-0{
+    margin: 10px 0;
+}
+ 
+.wi-10{
+    width: 10%;
+}
+ 
+.wi-20{
+    width: 20%;
+}
+ 
+.wi-33{
+    width: 33.33%;
+}
+ 
+.wi-40{
+    width: 40%;
+}
+ 
+.wi-50{
+    width: 50%;
+}
+ 
+.wi-60{
+    width: 60%;
+}
+ 
+.wi-66{
+    width: 66.67%;
+}
+ 
+.wi-80{
+    width: 80%;
+}
+ 
+.wi-90{
+    width: 90%; 
+}
+ 
+.wi-100{
+    width: 100%;
+}
+ 
+ul li{
+    list-style: none;
+}
+
+.he45-wi100-flri{
+    height: 45px;
+    width: 100%;
+    float: right;
+    overflow: hidden; 
+}
+ 
+.main-text{
+    font-size: 13px;
+    font-family: Yekan;
+    direction: rtl;
+    text-align: right;
+    margin: 10px;
+    font-weight: bold;
+}
+ 
+.text1{
+    font-family: Yekan;
+    direction: rtl;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    line-height: 35px;
+}
+ 
+.text2{
+    font-family: Yekan;
+    direction: rtl;
+    text-align: left;
+    color: #fff;
+}
+ 
+.text3{
+    font-family: Yekan;
+    direction: rtl;
+    text-align: right;
+}
+
+.ok-button{
+    width: 70px;
+    height: 35px;
+    color: white;
+    background-color: rgb(68, 68, 226);
+    border-radius: 5px 0 0 5px;
+    margin-top: 2px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.font-size1{
+    font-size: 20px !important;
+}
