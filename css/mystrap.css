@@ -60,6 +60,12 @@ h1,h2,h3,h4,h5,h6{
 .wi-40{
     width: 40%;
 }
+
+@media (min-width: 0px) and (max-width: 430px){
+    .mo-wi-50{
+        width: 50%;
+    }
+}
  
 .wi-50{
     width: 50%;
@@ -95,6 +101,15 @@ ul li{
     float: right;
     overflow: hidden; 
 }
+
+@media (min-width: 0px) and (max-width: 430px){
+    .he45-wi100-flri{
+        height: 45px;
+        width: 100%;
+        float: right;
+        overflow: hidden; 
+    }
+}
  
 .main-text{
     font-size: 13px;
@@ -103,6 +118,17 @@ ul li{
     text-align: right;
     margin: 10px;
     font-weight: bold;
+}
+
+@media (min-width: 0px) and (max-width: 430px){
+    .main-text{
+        font-size: 10px;
+        font-family: Yekan;
+        direction: rtl;
+        text-align: right;
+        margin: 10px;
+        font-weight: bold;
+    }
 }
  
 .text1{
@@ -141,4 +167,21 @@ ul li{
 
 .font-size1{
     font-size: 20px !important;
+}
+
+.r1190{
+    width: 1190px !important;
+    height: auto !important;
+    margin: 0 auto;
+    float: none !important;
+    position: relative;
+}
+
+@media (min-width: 0px) and (max-width: 1189px){
+    .r1190{
+        width: 100% !important;
+        height: auto !important;
+        float: none !important;
+        position: relative;
+    }
 }
