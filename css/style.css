@@ -134,6 +134,8 @@ a:hover{
 
 .logo{
    position: absolute;
+   width: 177px;
+   height: 90px;
 }
 
 @media (min-width: 0px) and (max-width: 430px){
