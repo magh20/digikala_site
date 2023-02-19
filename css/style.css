@@ -141,10 +141,19 @@ a:hover{
 @media (min-width: 0px) and (max-width: 430px){
    .logo{
       position: absolute;
+      width: 88px;
+      height: 45px;
+   }
+}
+
+@media (min-width: 430px) and (max-width: 645px){
+   .logo{
+      position: absolute;
       width: 102px;
       height: 45px;
    }
 }
+
 
 .back-menu{
    background-color: rgb(235, 232, 232);
@@ -175,6 +184,14 @@ a:hover{
 
 .menu ul li a{
    float: right;
+}
+
+@media (min-width: 0px) and (max-width: 985px){
+   .menu-icon{
+      padding: 5px 10px;
+      font-size: 20px;
+      cursor: pointer;
+   }   
 }
 
 .menu .ispan{
