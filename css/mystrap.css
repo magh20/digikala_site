@@ -96,6 +96,12 @@ h1,h2,h3,h4,h5,h6{
 .wi-100{
     width: 100%;
 }
+
+@media (min-width: 430px) and (max-width: 1189px){
+    .mo-wi-100{
+        width: 100%;
+    }
+}
  
 ul li{
     list-style: none;
@@ -198,13 +204,13 @@ ul li{
     }
 }
 
-@media (min-width: 0px) and (max-width: 985px){
+@media (min-width: 0px) and (max-width: 1189px){
     .mo-tab-dis-no{
         display: none !important;
     }
 }
 
-@media (min-width: 985px) and (max-width: 1500px){
+@media (min-width: 1189px) and (max-width: 1500px){
     .desk-dis-no{
         display: none !important;
     }

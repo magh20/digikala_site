@@ -186,7 +186,7 @@ a:hover{
    float: right;
 }
 
-@media (min-width: 0px) and (max-width: 985px){
+@media (min-width: 0px) and (max-width: 1189px){
    .menu-icon{
       padding: 5px 10px;
       font-size: 20px;
@@ -223,11 +223,45 @@ a:hover{
    overflow: hidden; 
 }
 
+.vitrin img{
+   height: 200px; 
+   width: 1190px;
+}
+
+@media (min-width: 0px) and (max-width: 430px){
+   .vitrin img{
+      height: 100px; 
+      width: 100%;
+   }   
+}
+
+@media (min-width: 430px) and (max-width: 1189px){
+   .vitrin img{
+      height: 150px; 
+      width: 100%;
+   }   
+}
+
 .right-content{
    float: right;
    height: auto;
    width: 290px;
    margin: 10px 0;
+}
+
+@media (min-width: 0px) and (max-width: 430px){
+   .right-content{
+      display: none;
+   } 
+}
+
+@media (min-width: 430px) and (max-width: 1189px){
+   .right-content{
+      float: right;
+      height: auto;
+      width: 25%;
+      margin: 10px 0;
+   }
 }
 
 .left-content{
@@ -237,12 +271,40 @@ a:hover{
    margin: 10px 0;
 }
 
+@media (min-width: 0px) and (max-width: 430px){
+   .left-content{
+      float: left;
+      height: auto;
+      width: 100%;
+   }
+}
+
+@media (min-width: 430px) and (max-width: 1189px){
+   .left-content{
+      float: left;
+      height: auto;
+      width: 75%;
+   }
+}
+
 .sidebar-section{
-    float: right;
-    border-radius: 5px;
-    box-shadow: 0 0 5px 0 #ccc;
-    overflow: hidden;
-    margin-bottom: 5px;
+   float: right;
+   border-radius: 5px;
+   box-shadow: 0 0 5px 0 #ccc;
+   overflow: hidden;
+   margin-bottom: 5px;
+}
+
+.sidebar-section a img{
+   width: 290px; 
+   height: 200px;
+}
+
+@media (min-width: 430px) and (max-width: 1189px){
+   .sidebar-section a img{
+      width: 100%; 
+      height: auto;
+   }
 }
 
 .brand{
@@ -254,6 +316,12 @@ a:hover{
    height: 90px;
    width: 140px;
    border-radius: 5px;
+}
+
+@media (min-width: 430px) and (max-width: 1189px){
+   .brand{
+      display: none;
+   }
 }
 
 .most-sales{
@@ -292,11 +360,59 @@ a:hover{
    padding: 5px;
 }
 
+@media (min-width: 430px) and (max-width: 1189px){
+   .most-sales header h4{
+      font-size: 14px;
+   }
+
+   .most-sales li img{
+      border-radius: 100%;
+      float: right;
+   }
+   
+   .most-sales h6{
+      font-size: 10px;
+      margin: 5px;
+   }
+   
+   .most-sales span{
+      font-size: 9px;
+      color: rgb(184, 181, 181);
+
+   }
+   
+   .most-sales footer a{
+      text-align: center;
+      font-family: Yekan;
+      font-size: 15px;
+      color: rgb(51, 112, 114);
+      padding: 5px;
+   }
+}
+
 .slider1{
    float: right;
    width: 100%;
    height: 356px;
    position: relative;
+}
+
+@media (min-width: 0px) and (max-width: 430px){
+   .slider1{
+      float: right;
+      width: 100%;
+      height: 135px;
+      position: relative;
+   }
+}
+
+@media (min-width: 430px) and (max-width: 1189px){
+   .slider1{
+      float: right;
+      width: 100%;
+      height: 150px;
+      position: relative;
+   }
 }
 
 .slider1 a > span:hover{
@@ -325,11 +441,36 @@ a:hover{
    top: 150px;
 }
 
+@media (min-width: 0px) and (max-width: 1189px){
+   .slider1 .slider1-lefticon{
+      right: -12px;
+      top: 40px;
+      font-size: 12px;
+      cursor: pointer;
+   }
+   
+   .slider1 .slider1-righticon{
+      left: -12px;
+      top: 41.5px;
+      font-size: 12px;
+      cursor: pointer;
+   }
+}
+
 .slider1-img{
    float: right;
    width: 100%;
    height: 341px;
    position: absolute;
+}
+
+@media (min-width: 0px) and (max-width: 430px){
+   .slider1-img{
+      float: right;
+      width: 100%;
+      height: 130px;
+      position: absolute;
+   }
 }
 
 .slider1-item{
@@ -347,6 +488,25 @@ a:hover{
    position: relative;
 }
 
+@media (min-width: 0px) and (max-width: 1189px){
+   .slider1-item{
+      height: 15px;
+      float: right;
+      width: 100%;
+      position: relative;
+      top: 105px;
+      margin: 20px 120px 0 0;
+   }
+   
+   .slider1-item ul li{
+      list-style: none;
+      float: right;
+      padding: 3px;
+      position: relative;
+      font-size: 12px;
+   }
+}
+
 .active{
    color: gray;
 }
@@ -357,6 +517,18 @@ a:hover{
    width: 100%;
    height: 380px;
    position: relative;
+}
+
+@media (min-width: 0px) and (max-width: 430px){
+   .slider2{
+      display: none;
+   }
+}
+
+@media (min-width: 430px) and (max-width: 1189px){
+   .slider2{
+      display: none;
+   }
 }
 
 .slider2 .slider2-img{
@@ -548,6 +720,34 @@ a:hover{
    height: 205px;
 }
 
+@media (min-width: 0px) and (max-width: 430px){
+   .gallery{
+      display: none;
+   }
+}
+
+@media (min-width: 430px) and (max-width: 1189px){
+   .gallery{
+      margin: 0;
+      height: auto;
+      width: 100%;
+      float: right;
+   }
+
+   .gallery ul li{
+      float: right;
+      padding: 3px;
+      overflow: hidden;
+      height: 180px;
+   }
+   
+   .gallery ul li img{
+      float: right;
+      overflow: hidden;
+      height: 180px;
+   }
+}
+
 .gallery ul li img{
    float: right;
    width: 100%;
@@ -560,6 +760,7 @@ a:hover{
    width: 100%;
    float: right;
    height: auto;
+   margin-top: 20px;
 }
 
 .information ul{
@@ -581,6 +782,50 @@ a:hover{
    text-align: center;
    display: block;
    margin-right: 60px;
+}
+
+@media (min-width: 0px) and (max-width: 430px){
+   .information ul{
+      padding-right: 10px;
+   }
+
+   .information ul li{
+      width: 20%;
+      float: right;
+      list-style: none;
+      text-align: center;
+      direction: rtl;
+      font-size: 10px;
+      
+   }
+   
+   .information ul li img{
+      text-align: center;
+      display: block;
+      margin-right: 10px;
+   }
+}
+
+@media (min-width: 430px) and (max-width: 1189px){
+   .information ul{
+      padding-right: 20px;
+   }
+
+   .information ul li{
+      width: 20%;
+      float: right;
+      list-style: none;
+      text-align: center;
+      direction: rtl;
+      font-size: 12px;
+      
+   }
+   
+   .information ul li img{
+      text-align: center;
+      display: block;
+      margin-right: 10px;
+   }
 }
 
 .slideshow{
