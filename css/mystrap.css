@@ -20,6 +20,12 @@ a{
 .box-0050{
     box-shadow: 0 0 5px 0 #ccc;
 }
+
+@media (min-width: 430px) and (max-width: 1189px){
+    .box-0050{
+        box-shadow: none;
+    }
+}
  
 .fl-ri{
     float: right;
@@ -57,6 +63,12 @@ h1,h2,h3,h4,h5,h6{
  
 .wi-20{
     width: 20%;
+}
+
+@media (min-width: 430px) and (max-width: 1189px){
+    .mo-wi-20{
+        width: 20%;
+    }
 }
  
 .wi-33{
@@ -98,7 +110,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 @media (min-width: 430px) and (max-width: 1189px){
-    .mo-wi-100{
+    .tab-wi-100{
         width: 100%;
     }
 }
@@ -175,6 +187,44 @@ ul li{
     margin-top: 2px;
     text-align: center;
     font-size: 15px;
+}
+
+@media (min-width: 0px) and (max-width: 430px){
+    .text3{
+        font-family: Yekan;
+        direction: rtl;
+        text-align: right;
+        font-size: 9px;
+    }
+
+    .ok-button{
+        width: 30%;
+        height: 20px;
+        color: white;
+        background-color: rgb(68, 68, 226);
+        border-radius: 5px 0 0 5px;
+        text-align: center;
+        font-size: 9px;
+    }
+}
+
+@media (min-width: 430px) and (max-width: 1189px){
+    .text3{
+        font-family: Yekan;
+        direction: rtl;
+        text-align: right;
+        font-size: 12px;
+    }
+
+    .ok-button{
+        width: 30%;
+        height: 30px;
+        color: white;
+        background-color: rgb(68, 68, 226);
+        border-radius: 5px 0 0 5px;
+        text-align: center;
+        font-size: 12px;
+    }
 }
 
 .font-size1{

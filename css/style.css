@@ -283,7 +283,7 @@ a:hover{
    .left-content{
       float: left;
       height: auto;
-      width: 75%;
+      width: 74%;
    }
 }
 
@@ -320,7 +320,13 @@ a:hover{
 
 @media (min-width: 430px) and (max-width: 1189px){
    .brand{
-      display: none;
+      width: 100%;
+   }
+
+   .brand img{
+      height: auto;
+      width: 95%;
+      border-radius: 5px;
    }
 }
 
@@ -519,13 +525,7 @@ a:hover{
    position: relative;
 }
 
-@media (min-width: 0px) and (max-width: 430px){
-   .slider2{
-      display: none;
-   }
-}
-
-@media (min-width: 430px) and (max-width: 1189px){
+@media (min-width: 0px) and (max-width: 1189px){
    .slider2{
       display: none;
    }
@@ -720,6 +720,14 @@ a:hover{
    height: 205px;
 }
 
+.gallery ul li img{
+   float: right;
+   width: 100%;
+   height: 197px;
+   border-radius: 5px;
+   overflow: hidden;
+}
+
 @media (min-width: 0px) and (max-width: 430px){
    .gallery{
       display: none;
@@ -738,22 +746,14 @@ a:hover{
       float: right;
       padding: 3px;
       overflow: hidden;
-      height: 180px;
+      height: 125px;
    }
    
    .gallery ul li img{
       float: right;
       overflow: hidden;
-      height: 180px;
+      height: 125px;
    }
-}
-
-.gallery ul li img{
-   float: right;
-   width: 100%;
-   height: 197px;
-   border-radius: 5px;
-   overflow: hidden;
 }
 
 .information{
@@ -928,6 +928,27 @@ a:hover{
    color: gray;
 }
 
+@media (min-width: 0px) and (max-width: 430px){
+   .slideshow ul{
+      width: 100%;
+      height: 270px;
+      float: right;
+      margin: 0;
+   }
+
+   .slideshow ul li{
+      width: 150px;
+      height: 100%;
+      float: right;
+      margin-right: 50px;
+   }
+
+   .slideshow ul li a img{
+      width: 100%;
+      float: right;
+   } 
+}
+
 footer{
    width: 100%;
    height: auto;
@@ -959,6 +980,54 @@ footer header ul li i{
    color: rgb(37, 36, 36);
 }
 
+@media (min-width: 0px) and (max-width: 430px){
+   footer header{
+      background-color: rgb(119, 118, 118);
+      height: 40px;
+      width: 100%;
+      float: right;
+   }
+   
+   footer header ul li{
+      float: right;
+      color: white;
+      padding: 5px 5px 5px 0;
+      line-height: 5px;
+      text-align: right;
+      direction: rtl;
+      font-family: Yekan;
+      font-size: 12px;
+   }
+   
+      footer header ul li:nth-child(1){
+         display: none;
+      }
+}
+
+@media (min-width: 430px) and (max-width: 1189px){
+   footer header{
+      background-color: rgb(119, 118, 118);
+      height: 50px;
+      width: 100%;
+      float: right;
+   }
+   
+   footer header ul li{
+      float: left;
+      color: white;
+      padding: 5px 50px 5px 0;
+      line-height: 5px;
+      text-align: right;
+      direction: rtl;
+      font-family: Yekan;
+      font-size: 12px;
+   }
+   
+      footer header ul li:nth-child(1){
+         display: none;
+      }
+}
+
 .footer-body{
    height: 230px;
    background-color: rgb(240, 240, 240);
@@ -971,6 +1040,62 @@ footer header ul li i{
    margin-right: 40px;
    width: 100%;
    float: right;
+}
+
+@media (min-width: 0px) and (max-width: 430px){
+   .footer-body{
+      height: 190px;
+      background-color: rgb(240, 240, 240);
+      width: 100%;
+      float: right;
+   }
+
+   .footer-body ul li{
+      text-align: right;
+      margin-right: 10px;
+      width: 100%;
+      float: right;
+      font-size: 9px;
+   }
+
+   .mo-footer-left-header{
+      font-size: 9px;
+   }
+
+   .mo-footer-left-input{
+      height: 20px;
+      width: 70%;
+      border-radius: 0 5px 5px 0;
+      border: 1px solid gray;
+   }
+}
+
+@media (min-width: 430px) and (max-width: 1189px){
+   .footer-body{
+      height: 250px;
+      background-color: rgb(240, 240, 240);
+      width: 100%;
+      float: right;
+   }
+
+   .footer-body ul li{
+      text-align: right;
+      margin-right: 10px;
+      width: 100%;
+      float: right;
+      font-size: 12px;
+   }
+
+   .mo-footer-left-header{
+      font-size: 12px;
+   }
+
+   .mo-footer-left-input{
+      height: 30px;
+      width: 70%;
+      border-radius: 0 5px 5px 0;
+      border: 1px solid gray;
+   }
 }
 
 .footer-bottom-left ul li{
@@ -1007,6 +1132,49 @@ footer header ul li i{
    margin-top: 10px;
 }
 
+@media (min-width: 0px) and (max-width: 430px){
+   .footer-bottom-left ul{
+      width: 100%;
+   }
+
+   .footer-bottom-left ul li{
+      float: right;
+      width: 10%;
+   }
+
+   .footer-bottom-left span{
+      float: right;
+      margin-top: 0;
+   }
+
+   .footer-bottom-left span a img{
+      width: 100px;
+      height: 40px;
+   }
+}
+
+@media (min-width: 430px) and (max-width: 1189px){
+   .footer-bottom-left ul{
+      width: 100%;
+   }
+
+   .footer-bottom-left ul li{
+      float: right;
+      width: 9%;
+      padding: 0 7px;
+   }
+
+   .footer-bottom-left span{
+      float: right;
+      margin-top: 10px;
+   }
+
+   .footer-bottom-left span a img{
+      width: 120px;
+      height: 50px;
+   }
+}
+
 .digikala-sections{
    float: right;
    width: 100%;
@@ -1034,5 +1202,58 @@ footer header ul li i{
    margin-bottom: 0;
    width: 90px;
    height: 60px;
+}
 
+@media (min-width: 0px) and (max-width: 430px){
+   .digikala-sections{
+      float: right;
+      width: 100%;
+      height: auto;
+      margin-top: 0px;
+   }
+   
+   .digikala-sections span{
+      margin-top: 0;
+      margin-bottom: 0;
+      float: right;
+      width: 11.11%;
+      height: 50px;
+      border-left: 1px solid rgba(189, 187, 187, 0.558);
+      border-bottom: 1px solid rgb(189, 187, 187, 0.558);
+   }
+   
+   .digikala-sections span a img{
+      margin-left: 0px;
+      margin-bottom: 0;
+      margin-top: 10px;
+      width: 30px;
+      height: 20px;
+   }
+}
+
+@media (min-width: 430px) and (max-width: 1189px){
+   .digikala-sections{
+      float: right;
+      width: 100%;
+      height: auto;
+      margin-top: 0px;
+   }
+   
+   .digikala-sections span{
+      margin-top: 0;
+      margin-bottom: 0;
+      float: right;
+      width: 11.11%;
+      height: 50px;
+      border-left: 1px solid rgba(189, 187, 187, 0.558);
+      border-bottom: 1px solid rgb(189, 187, 187, 0.558);
+   }
+   
+   .digikala-sections span a img{
+      margin-left: 0px;
+      margin-bottom: 0;
+      margin-top: 10px;
+      width: 45px;
+      height: 50px;
+   }
 }
