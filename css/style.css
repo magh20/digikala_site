@@ -164,6 +164,10 @@ a:hover{
    box-shadow: 0 1px 3px 0px rgb(186, 184, 184);
 }
 
+.menu{
+   position: relative;
+}
+
 .menu ul{
    margin: 0;
    padding: 0;
@@ -198,6 +202,15 @@ a:hover{
    float: left;
    font-size: 13px;
    margin: 2px 3px 0 2px;
+}
+
+.sub-menu{
+   background-color: rgb(193, 191, 191);
+   position: absolute;
+   height: 45px;
+   width: 100%;
+   bottom: -89px;
+   z-index: 2;
 }
 
 .back-content{
