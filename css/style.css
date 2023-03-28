@@ -182,8 +182,35 @@ a:hover{
    cursor: pointer;
 }
 
+.menu ul li ul{
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 40px;
+   z-index: 3;
+   display: none;
+}
+
+.menu ul li ul li{
+   margin-top: 5px;
+   height: 44px;
+   padding: 0 20px 0 40px;
+   text-align: center;
+}
+
 .menu ul li:hover{
    color: red;
+   background-color: white;
+}
+
+.menu ul li:hover ul li{
+   color: black;
+   background-color: white;
+}
+
+.menu ul li ul li:hover{
+   color: red !important;
+   border-bottom: 4px red solid
 }
 
 .menu ul li a{
@@ -205,12 +232,13 @@ a:hover{
 }
 
 .sub-menu{
-   background-color: rgb(193, 191, 191);
+   background-color: white;
    position: absolute;
    height: 45px;
    width: 100%;
    bottom: -89px;
    z-index: 2;
+   display: none;
 }
 
 .back-content{
