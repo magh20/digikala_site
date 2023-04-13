@@ -1,3 +1,4 @@
+//menu
 $(document).ready(function(){
     $(".menu ul li").hover(function(){
         let countul = $(this).find("ul").length;
@@ -15,10 +16,18 @@ $(document).ready(function(){
         $(".sub-menu").css("display","none");
         $(".menu>ul>li").find("ul").hide();
     })
-}); //menu
+}); 
 
+//slider1
 $(document).ready(function(){ 
     $(".slider1-righticon").click(function(){
-
+        let active_id = $(".slider1 .slider1-img").find(".active").attr("id");
+        $(".slider1 .slider1-img").find("#" + active_id).removeClass("active");
+        $(".slider1 .slider1-img").find("#" + (parseInt(active_id) + 1)).addClass("active");
     })
-}); //slider1
+    $(".slider1-lefticon").click(function(){
+        let active_id = $(".slider1 .slider1-img").find(".active").attr("id");
+        $(".slider1 .slider1-img").find("#" + active_id).removeClass("active");
+        $(".slider1 .slider1-img").find("#" + (parseInt(active_id) - 1)).addClass("active");
+    })
+});

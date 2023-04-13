@@ -522,6 +522,10 @@ a:hover{
    }
 }
 
+.slider1 .active{
+   display: inline !important;
+}
+
 .slider1-item{
    height: 15px;
    float: right;

@@ -264,5 +264,8 @@ ul li{
     .desk-dis-no{
         display: none !important;
     }
- 
- }
+}
+
+.dis-no{
+    display: none;
+}
