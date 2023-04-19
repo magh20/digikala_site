@@ -18,16 +18,32 @@ $(document).ready(function(){
     })
 }); 
 
-//slider1
+//slider1 1th way
 $(document).ready(function(){ 
     $(".slider1-righticon").click(function(){
         let active_id = $(".slider1 .slider1-img").find(".active").attr("id");
-        $(".slider1 .slider1-img").find("#" + active_id).removeClass("active");
-        $(".slider1 .slider1-img").find("#" + (parseInt(active_id) + 1)).addClass("active");
+        if(parseInt(active_id) < 4){
+            $(".slider1 .slider1-img").find("#" + active_id).removeClass("active");
+            $(".slider1 .slider1-img").find("#" + (parseInt(active_id) + 1)).addClass("active");
+        }else{
+            $(".slider1 .slider1-img").find("#" + active_id).removeClass("active");
+            $(".slider1 .slider1-img").find("#1").addClass("active");
+        }
     })
     $(".slider1-lefticon").click(function(){
         let active_id = $(".slider1 .slider1-img").find(".active").attr("id");
-        $(".slider1 .slider1-img").find("#" + active_id).removeClass("active");
-        $(".slider1 .slider1-img").find("#" + (parseInt(active_id) - 1)).addClass("active");
+        if(parseInt(active_id) > 1){
+            $(".slider1 .slider1-img").find("#" + active_id).removeClass("active");
+            $(".slider1 .slider1-img").find("#" + (parseInt(active_id) - 1)).addClass("active");
+        }else{
+            $(".slider1 .slider1-img").find("#" + active_id).removeClass("active");
+            $(".slider1 .slider1-img").find("#4").addClass("active");
+        }
     })
 });
+//slider1 2th way
+// $(document).ready(function(){ 
+//     function move(){
+
+//     }
+// });
